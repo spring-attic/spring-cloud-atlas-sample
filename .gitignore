@@ -1,0 +1,5 @@
+.gradle/
+build/
+atlas-*-standalone.jar
+publish-test.sh
+memory.conf
