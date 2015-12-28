@@ -21,11 +21,11 @@ ext {
 repositories {
     jcenter()
     maven { url 'https://repo.spring.io/release/' }
-    maven { url "http://repo.spring.io/libs-milestone-local" }
+    maven { url 'http://repo.spring.io/snapshot' }
 }
 
 dependencyManagement {
-	imports { 
+	imports {
 		mavenBom "org.springframework.cloud:spring-cloud-netflix:1.1.0.BUILD-SNAPSHOT"
 	}
 }
@@ -35,6 +35,7 @@ dependencies {
     compile 'org.springframework.cloud:spring-cloud-starter-spectator'
     compile 'org.springframework.cloud:spring-cloud-starter-atlas'
     compile 'org.springframework.cloud:spring-cloud-starter-hystrix'
+    compile 'io.dropwizard.metrics:metrics-core:3.1.2'
 }
 
 task wrapper(type: Wrapper) {
