@@ -5,4 +5,4 @@ eureka.client:
   register-with-eureka: false
   fetch-registry: false
 
-netflix.atlas.uri: http://atlas/api/v1/publish/
+netflix.atlas.uri: https://atlas/api/v1/publish/
