@@ -1,3 +1,5 @@
+# spring-cloud-atlas-sample is no longer actively maintained by VMware, Inc.
+
 # Atlas Sample
 
 Before running this project, start a local Atlas server:
